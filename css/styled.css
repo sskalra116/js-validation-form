@@ -1,0 +1,26 @@
+/*	
+	CSS stylesheet
+	By Shahbegh Singh Kalra
+*/
+/*Elements styled using id selector*/
+#one
+{
+	text-align:center;
+}
+body
+{
+	background-color: #CCE0DF;
+}
+#two
+{
+	color:blue;
+}
+
+div
+{
+	width: 50%;
+	color: #1E6E68;
+	line-height: 40px;
+	text-align:center;
+}
+

@@ -1,0 +1,99 @@
+<!--
+	Name: Shahbegh Singh Kalra
+	Date: 12/04/2017
+	Lab: customFormValidation
+	Purpose: Final project progress
+-->
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact</title>
+	<!-- css to define theme colors -->
+	<link href="../css/formPrototype.css" rel="stylesheet">
+	<link href="../theme/jquery-ui.css" rel="stylesheet">
+	
+	<!-- jQuery UI functionality -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="../theme/external/jquery/jquery.js"></script>
+	<script type="text/javascript" src="../theme/jquery-ui.js"></script>
+	<script type="text/javascript" src="../validation/dist/jquery.validate.js"></script>
+	<script type="text/javascript" src="../validation/dist/additional-methods.js"></script>
+	<script type="text/javascript" src="../js/formValidationChallenge.js"></script>
+</head>
+<body>
+	<!--Page Heading-->
+	<h1>Form Validation Challenge</h1>
+	<h2 class="contact">A Higher State</h2>
+	<!--form example-->
+	<form id="myForm">
+	
+	<fieldset class="contact">
+			
+			<legend>Registration</legend>
+			<!--required used for the mandatory fields-->
+			<label>Number:</label> <input type="tel" name="number" value="" id = "number" required><br>
+			<label>Email:</label> <input type="email" name="email" value="" id = "email" required><br>
+			<label>Password:</label><input type="password" name="password" id = "password" required><br>
+			<br>
+			<br>
+			
+			<div id="accordion">
+				<h6>Weekly practise session</h6>
+				<p>Morning practice on Monday, Wednesday and Friday starts at 6:45am</p>
+				<h6>One day retreat</h6>
+				<p> A full day of mindfulness and camaraderie will follow from 9am to 4pm.</p>
+			</div>
+			<br>
+			<label>Select no. of days:</label>
+			<input id="spinner" name = "spinner">
+			<br>
+			<input type="checkbox" name="meditation" value="meditation" id = "meditation" checked><label>meditation</label><br>
+			<br><input type="checkbox" name="yoga" value="yoga" id = "yoga"><label>yoga</label>
+			<br>
+			 <br>
+			<div class="practise">
+			<label>Sign up for:</label> <br>
+				<div id="radioset">
+				<input type="radio" id="radio1" name="radio" value = "Weekly"><label for="radio1">Weekly &nbsp;</label>
+				<input type="radio" id="radio2" name="radio" value = "One_day" checked="checked"><label for="radio2">One Day</label>
+				</div>
+			</div>
+			<br>
+			<label>Your area of concentration</label>
+			<div>
+				&nbsp;<input id="autocomplete" name = "autocomplete" title="type &quot;a&quot;">
+			</div>
+
+			<br>
+			<div id="datepicker"></div>
+			<br>
+			<button id="button">Effect</button>
+			
+			<br>
+			<label>Send Message :</label><br>
+			<textarea name="message" placeholder="Please type the message you want to submit" id = "textarea" required></textarea><br>
+			<input type="submit" name="submit" value="Submit" id = "submit"><br>
+			<input type="reset" name="reset" value="Reset">
+			<br>
+			<hr>
+			<header>
+				Output Area
+			</header>	
+			<!--User filled data is echoed back in this area-->
+			<div id = "content">
+			
+
+			</div>
+	</fieldset>
+	
+	</form>
+	<!--footer specifies the name of creator and the date-->
+	<footer>
+		<p>Created by Shahbegh Singh Kalra</p>
+		<time datetime="2017-11-26">11/26/2017</time>
+	</footer>
+		
+
+</body>
+</html>

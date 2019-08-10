@@ -1,0 +1,154 @@
+/*	N341 Final project
+	By Shahbegh Singh Kalra
+	date:11/26/2017
+	CSS stylesheet
+*/
+
+body
+{
+	
+	margin:0px;
+	background-color:#2c3563;
+	font-size:5px;
+	font-family:"Arial",sans-Serif;
+	color:#4e7899;
+	
+}
+img.home1
+{
+	width:100%;
+	position:relative;
+}
+
+article.story1
+{
+	padding-left:200px;
+	padding-right:200px;
+}
+img.story
+{
+    border-radius: 50%;
+	float:left;
+	
+}
+
+p.story
+{
+	padding-top:30px;
+	text-align:center;
+	/*Overwrote an inherited property*/
+	font-size:18px;
+}
+/*Typography example*/
+@font-face 
+{
+	font-family: 'Amatic-Bold';
+	src: url('../font/Amatic-Bold.eot'); /* IE9 Compat Modes */
+	src: url('../font/Amatic-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../font/Amatic-Bold.woff') format('woff'), /* Modern Browsers */
+	url('../font/Amatic-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../font/Amatic-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+h1.home ,h2.how
+{
+	text-shadow: -3px 0 #253b5a, 0 3px #253b5a, 3px 0 #253b5a, 0 -3px #253b5a;
+	position:absolute;
+	top:90px;
+	/*Typography used*/
+	font-family:'Amatic-Bold';
+	font-size:80px;
+	color:#99d3ff;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%)
+}
+h2
+{
+	text-shadow: -3px 0 #253b5a, 0 3px #253b5a, 3px 0 #253b5a, 0 -3px #253b5a;
+	font-family:'Amatic-Bold';
+	font-size:80px;
+	color:#99d3ff;
+	clear:both;
+	text-align:center;
+}
+
+/*Style footer common to every page*/
+footer 
+{
+	color:black;
+	text-align:center;
+	background-color:#7a838b;
+	display:block;
+	font-size:15px;
+}
+/*style contact page's content inside fieldset*/
+fieldset.contact
+{
+	color:white;
+	font-size:35px;
+	display:block;
+	background-color:#2a283d;
+	padding:20px;
+	margin-left:120px;
+	margin-right:120px;
+	clear:both;
+}
+input[type=text],[type=number],[type=email]
+{
+	width:30%;
+	display:grid;
+	background-color:#f2ebf0;
+	border-radius:10px;
+	margin:10px;
+	float:right;
+	clear:right;
+}
+input[type=radio]
+{
+	background-color:#f2ebf0;
+	margin-right:100px;
+	float:right;
+	clear:right;
+}
+/*style the input types*/
+.contact input[type=button], input[type=submit], input[type=reset] 
+{
+	margin-right:20px;
+	color:white;
+	background-color:#10333a;
+	border-radius:10px;
+	width:100px;
+	float:right;
+	clear:right;
+	margin-right:50px;
+}
+textarea
+{
+	margin:10px;
+	width:300px;
+	height:100px;
+	background-color:#f2ebf0;
+	float:left;
+}
+.contact label
+{
+	color:white;
+	padding:10px;
+	margin-left:50px;
+	float:left;
+	clear:left;
+}
+.gender
+{
+	padding-left:100px;
+}
+fieldset.home
+{
+	text-align:center;
+	margin:120px;
+	background-color:#3e4a75;
+}
+fieldset.home p , legend
+{
+	color:#9495a5;
+}
