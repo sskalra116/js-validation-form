@@ -11,9 +11,9 @@
 
 4)minimum character for password
 
-<img src="images/val1.jpg">
-<img src="images/val2.jpg">
+<img src="images/val1.PNG">
+<img src="images/val2.PNG">
 
 ### Once all the fields go through the validation, the output is stored in a string variable line-by-line and is displayed in the outpu field-
 
-<img src="images/output.jpg">
+<img src="images/output.PNG">
